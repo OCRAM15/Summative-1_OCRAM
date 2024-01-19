@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="styles.css">
+<body>
+  <div class="button-container">
+  <button onclick="changeBackgroundColor('white', 'black')">Default</button>
+  <button onclick="changeBackgroundColor('black', 'white')">Dark Color</button>
+  <button onclick="changeBackgroundColor('lightblue', 'black')">Light Color</button>
+</div>
+    <div class="container">
+        <div class="profile">
+            <div class=" profilecont">
+                <div class="img">
+                    <img src="img/marco.png" alt="">
+
+                </div>
+                <div class="text1">
+                    <h1 class="name">
+                       Marco&nbspLucido
+                    </h1>
+                    <h2 class="protitle">
+                        Web Developer
+                    </h2>
+                    <h3 class="desc">
+                        <h4> Address:&nbspManila</h4> 
+                        <h4>Number:&nbsp0917-969-8989</h4> 
+                        <h4>Email:&nbspmarco@gmail.com</h4> 
+                    </h3>
+                   
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="grp1">
+            <div class="skills">
+                <h3 class="title">Expertise</h3>
+                <ul class="skills_list">
+                  <li>JavaScript</li>
+                  <li>PHP & Wordpress</li>
+                  <li>HTML CSS</li>
+                  <li>React JS</li>
+                  <li>MERN STACK</li>
+                </ul>
+                <hr>
+              </div>
+              <div class="edu">
+                <h3 class="title">Education</h3>
+                <div class="edu_item">
+                  <p class="item_preTitle">2012-2014</p>
+                  <h4 class="item_title">MSC in CSE</h4>
+                  <p class="item_subtitle">
+                    Feu Tech
+                  </p>
+                </div>
+                <div class="edu_item">
+                  <p class="item_preTitle">2008-2012</p>
+                  <h4 class="item_title">BSC in CSE</h4>
+                  <p class="item_subtitle">
+                    Harvard University
+                  </p>
+                  <hr>
+                </div>
+            </div>
+                <div class="certification">
+                    <h3 class="title">Certification</h3>
+                    <div class="certification_item">
+                      <p class="item_preTitle">2018</p>
+                      <h4 class="item_title">Frontend Developer</h4>
+                      <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore
+                        magna aliqua. Ut enim ad minim veniam,
+                      </p>
+                    </div>
+                    <hr>
+                  </div>
+                </div>
+                <div class="grp2"><div class="exp">
+                    <h3 class="title">Experience</h3>
+                    <div class="exp_item">
+                      <p class="item_preTitle">2019 - present</p>
+                      <h4 class="item_title">Marco Company</h4>
+                      <p class="item_subtitle">Frontend Developer</p>
+                      <p class=" description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore
+                        magna aliqua. Ut enim ad minim veniam,
+                      </p>
+                    </div>
+                    <div class="exp_item">
+                      <p class="item_preTitle">2023 - present</p>
+                      <h4 class="item_title">Marco Company</h4>
+                      <p class="item_subtitle">Frontend Developer</p>
+                      <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore
+                        magna aliqua. Ut enim ad minim veniam,
+                      </p>
+                      <hr>
+                    </div>
+                  </div>
+                  <div class="awards">
+                    <h3 class="title">Awards</h3>
+                    <div class="awards_item">
+                      <p class="item_preTitle">2023</p>
+                      <h4 class="item_title">BEST WEB DESIGNER</h4>
+                      <p class=" description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore
+                        magna aliqua. Ut enim ad minim veniam,
+                      </p>
+                     
+                    </div>
+                    <div class="awards_item">
+                      <p class="item_preTitle">2021</p>
+                      <h4 class="item_title">Best It.</h4>
+                      <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore
+                        magna aliqua. Ut enim ad minim qwveniam,
+                      </p>
+                      <hr>
+                    </div></div>
+                <div class="grp3"></div>
+        </div> 
+        
+     </div>
+    </div>
+    <script>
+      function changeBackgroundColor(bgColor, textColor) {
+          var myContainer = document.getElementsByClassName("container")[0];
+          myContainer.style.backgroundColor = bgColor;
+
+          var allTextElements = myContainer.querySelectorAll("*");
+          for (var i = 0; i < allTextElements.length; i++) {
+              allTextElements[i].style.color = textColor;
+          }
+      }
+  </script>
+        
+</body>
+
+</html>
+
+

@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: grey;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    max-width: 950px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 5rem;
+    display: grid;
+    background: white;
+    gap: 4rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profilecont{
+    display: flex;
+    gap: 2rem;
+
+}
+
+img{
+    
+        height: 250px;
+        width: 250px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+      
+}
+
+.desc {
+    
+    margin-top: 20px ;
+}
+
+.text1{
+    padding-left: 100px;
+    line-height: 30px;
+   
+}
+
+.profile{
+    grid-column: 1 / -1;
+    
+}
+.button{
+    
+    margin-top: 10px;
+    
+}
+
+.skills_list {
+	margin-top: 1rem;
+	margin-left: 2rem;
+	line-height: 2;
+}
+
+
+.edu_item {
+	margin-top: 2rem;
+    
+}
+
+.title {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 700;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+
+.item_preTitle {
+    font-family: 'Courier New', Courier, monospace;
+	font-size: 1rem;
+	color: var(--text-color);
+	font-weight: 300;
+}
+
+.item_title {
+    font-family: 'Courier New', Courier, monospace;
+	font-size: 1.2rem;
+	color: black;
+	font-weight: 600;
+	margin: 0.8rem 0;
+}
+.item_subtitle {
+	font-size: 1rem;
+	color: var(--text-color);
+	font-weight: 400;
+}
+
+
+.certification_item {
+	margin-top: 2rem;
+}   
+
+.exp_item {
+	margin-top: 2rem;
+}
+
+/* awards */
+.awards_item {
+	margin-top: 2rem;
+
+}
+
+hr{
+    margin: 10px;
+}
+
+.grp1,
+.grp2 {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+button{
+    
+ 
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 13px 23px;
+    border: 1px solid #222222;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: #fff;
+  
+    
+    :hover {
+        border-color: #000000;
+        background: #f7f7f7;
+    }
+
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
